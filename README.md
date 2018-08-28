@@ -114,6 +114,11 @@ icons, names, and branding colors to use when the web app is displayed.
 provides more context about what each field means, and how your customizations
 will affect your users' experience.
 
-## Deployment
+### Deployment
 
 `npm run build` creates a `build` directory with a production build of your app. Set up your favorite HTTP server so that a visitor to your site is served `index.html`, and requests to static paths like `/static/js/main.<hash>.js` are served with the contents of the `/static/js/main.<hash>.js` file.
+
+### Hamburger Animation Inspiration
+
+CSS animation of hamburger menu to close "X" symbol -- idea / inspiration from 
+[`https://codepen.io/designcouch/pen/Atyop/`](https://codepen.io/designcouch/pen/Atyop/)

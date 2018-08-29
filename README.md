@@ -122,3 +122,7 @@ will affect your users' experience.
 
 CSS animation of hamburger menu to close "X" symbol -- idea / inspiration from 
 [`https://codepen.io/designcouch/pen/Atyop/`](https://codepen.io/designcouch/pen/Atyop/)
+
+### Supplemental Location Information
+
+Additional location information is provided by the FourSquare API.

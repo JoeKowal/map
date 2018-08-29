@@ -75,7 +75,7 @@ class MapContainer extends Component {
         }
       } else if (!res) {
         this.setState({
-          placePicURL: "Error!",
+          placePicURL: "Doh!",
           hours: "The hours of operation did not load."
         });
       }
@@ -241,7 +241,7 @@ class MapContainer extends Component {
           </InfoWindow>
         </Map>
         <p tabIndex="0" id="data-source">
-          Information provided by Foursquare.
+          Additional Information provided by Foursquare API
         </p>
       </div>
     );

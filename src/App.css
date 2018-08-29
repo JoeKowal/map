@@ -31,7 +31,7 @@
   border-radius: 3px;
   margin: 6px 0;
   position: relative;
-  background: rgb(241, 112, 6);
+  background: rgb(241, 30, 76);
   top: 15px;
   left: 38px;
   transition: 0.125s;
@@ -61,10 +61,10 @@
   margin: -80px 0 0 0;
   width: 300px;
   height: 2000px;
-  background: white;
+  background: rgb(129, 122, 122);
   transform: translate(-100%, 0);
   transition: transform 0.125s;
-  background-color: rgb(255, 249, 249);
+  background-color: rgb(146, 133, 133);
   box-shadow: 0px 0px 30px rgb(90, 87, 87);
   visibility: hidden;
 }
@@ -74,16 +74,12 @@
   text-align: center;
 }
 
-#search-venues {
-  width: 225px;
-  height: 30px;
-  margin: 0 0 15px 0;
+#search-places {
+  width: 255px;
+  height: 40px;
+  margin: 10px 10px 30px 10px;
   font-size: 15px;
   padding-left: 5px;
-}
-
-::placeholder {
-  color: rgb(226, 200, 200);
 }
 
 ul {
@@ -93,23 +89,27 @@ ul {
 }
 
 .place {
-  margin: 0 0 30px 0;
-  color: rgb(85, 80, 80);
+  margin: 5px 5px 30px 5px;
+  color: rgb(248, 241, 241);
   cursor: pointer;
 }
 
 .place:hover {
-  color: rgb(247, 127, 7);
+  color: rgb(19, 8, 70);
+}
+
+#info-text {
+  padding: 15px;
+}
+
+::placeholder {
+  color: rgb(226, 200, 200);
 }
 
 #data-source {
   z-index: 3;
   position: absolute;
   bottom: 0;
-  right: 50px;
-  font-size: 13px;
-}
-
-#info-text {
-  padding: 10px;
+  right: 60px;
+  font-size: 10px;
 }
